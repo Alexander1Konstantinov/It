@@ -27,6 +27,12 @@ void print_array(int** mas, int n, int m)
 	}
 }
 
+void delete_array(int** mas, int n)
+{
+	for (int i = 0; i < n; i++)
+		delete[] mas[i];
+}
+
 void proizv_array(int** mas_1, int n1, int m1, int** mas_2, int n2, int m2)
 {
 	int ki = 0, kj = 0;
@@ -47,12 +53,8 @@ void proizv_array(int** mas_1, int n1, int m1, int** mas_2, int n2, int m2)
 	}
 
 	print_array(mas_3, n1, m2);
-}
-
-void delete_array(int** mas, int n)
-{
-	for (int i = 0; i < n; i++)
-		delete[] mas[i];
+	delete_array(mas_3, n1);
+	delete[] mas_3;
 }
 
 int main()
