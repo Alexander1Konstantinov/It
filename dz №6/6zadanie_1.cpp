@@ -53,6 +53,14 @@ void print_array(int** mas, int n, int m)
 	}
 }
 
+void delete_array(int** mas, int  n, int  m)
+{
+	for (int i = 0; i < n; i++)
+	{
+		delete[] mas[i];
+	}
+}
+
 void del_array(int** mas, int n, int m, int min_ii, int min_jj)
 {
 	int flag = 0;
@@ -86,15 +94,8 @@ void del_array(int** mas, int n, int m, int min_ii, int min_jj)
 		for (int j = 0; j < m - 1; j++)
 			mas[i][j] = mas_new[i][j];
 	mas = mas_new;
+	delete_array(mas_new, n - 1, m - 1);
 	delete[] mas_new;
-}
-
-void delete_array(int** mas,int  n,int  m)
-{
-	for (int i = 0; i < n; i++)
-	{
-		delete[] mas[i];
-	}
 }
 
 int main()
