@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="Windows-1251">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Проекты</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="title-block">
+                <h1 class="title">Абдрахманов Булат</h1>
+            </div>
+            <div class="userpic"></div>
+        </div>
+        <div class="nav">
+            <ul>
+                <li><a href="index.cgi">Главная страница</a></li>
+                <li><a href="Вторая страница.cgi">Вторая страница</a></li>
+                <li><a href="#">Проекты</a></li>
+            </ul>
+        </div>
+        <div class="content-wrapper">
+            <div class="content">
+                <info><li>
+				<h1><a href="struct.cgi">Дз про структуры</a></h1>
+				<h1><a href="stack.cgi">Дз про стек</a></h1>
+				<h1><a href="queue.cgi">Дз про очередь</a></h1>
+				<h1><a href="list.cgi">Дз про списки</a></h1>
+				</li></info>
+                <text></text>
+            </div>
+            <div class="sidebar"></div>
+        </div>
+    </div>
+</body>
+</html>

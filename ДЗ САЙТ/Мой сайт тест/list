@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="Windows-1251">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Дз про списки</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="title-block">
+                <h1 class="title">Константинов Александр</h1>
+            </div>
+            <div class="userpic"></div>
+        </div>
+        <div class="nav">
+            <ul>
+                <li><a href="index.cgi">Главная страница</a></li>
+                <li><a href="Вторая страница.cgi">Вторая страница</a></li>
+                <li><a href="Проекты.cgi">Проекты</a></li>
+            </ul>
+        </div>
+        <div class="content-wrapper">
+            <div class="content">
+                <info><h1>
+<!--#CONTENT#-->
+				</h1></info>
+                <text></text>
+            </div>
+            <div class="sidebar"></div>
+        </div>
+    </div>
+</body>
+</html>

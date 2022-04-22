@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="Windows-1251">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Вторая страница</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container" style="overflow: hidden">
+        <div class="header">
+            <div class="title-block">
+                <h1 class="title">Константинов Александр</h1>
+            </div>
+            <div class="userpic"></div>
+        </div>
+        <div class="nav">
+            <ul>
+                <li><a href="index.cgi">Главная страница</a></li>
+                <li><a href="#">Вторая страница</a></li>
+                <li><a href="Проекты.cgi">Проекты</a></li>
+            </ul>
+        </div>
+        <div class="content-wrapper">
+				<img src="kot_stek.jpg" style="margin: 0 auto 0 auto; width: 100%">
+            <div class="sidebar"></div>
+        </div>
+    </div>
+</body>
+</html>
